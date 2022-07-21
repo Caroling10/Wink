@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url("./fonts/Poppins/Poppins-Black.ttf");
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url("./fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family: Poppins-EstraLight;
+    src: url("./fonts/Poppins/Poppins-ExtraLight.ttf");
+}
+@font-face {
+    font-family: Poppins-Italic;
+    src: url("./fonts/Poppins/Poppins-Italic.ttf");
+}
+@font-face {
+    font-family: Poppins-Light;
+    src: url("./fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("./fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("./fonts/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: Poppins-Thin;
+    src: url("./fonts/Poppins/Poppins-Thin.ttf");
+}
+
+
+body{
+    background-color: #fff;
+    font-family:Poppins-Medium;
+}
+.contenedor{
+    background-color: #fff;
+    margin:auto;
+    width: 100%;
+}
+
+
+header{
+    background:#075e54;
+}
+header nav{
+    width: 100%;
+}
+
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: left; 
+
+}
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+
+}
+header nav ul li a:hover{
+    background: #fff;
+    color: #075e54;
+
+}
+.seccion1 {
+    padding-bottom: 50px;
+    height: auto;
+    overflow: hidden;
+
+}
+.titulo{
+    width: 50%;
+    float: left;
+    
+}
+.titulo h1{
+    font-size: 68px;
+    font-family: Poppins-Bold;
+    line-height: 100%;
+    position:relative;
+    left: 125px;
+    top: 120px;
+    color:#25d366;
+}
+.titulo p{
+    font-size: 19px;
+    font-family: Poppins-Medium;
+    line-height: 100%;
+    position:relative;
+    left: 125px;
+    top: 145px;
+    color:#000000;
+}
+
+.img{
+    width: 50%;
+    float: left;   
+    position: relative;
+    top: 40px;
+    left: 190px;
+}
+.titulo a{
+    background: #25d366;
+    padding: 13px 20px;
+    border-radius: 50px;
+    position:relative;
+    left: 125px;
+    top: 190px;
+    color: #fff;
+    text-decoration: none;
+}
+section .img img{
+
+    width: 300px;
+    }
+
+.seccion2{
+    background-image: url(../img/fondos2.png);
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+label{
+    font-family: Poppins-Regular;
+    text-align: center;
+}
+
+.formulario{
+    background-color: #fff;
+    width: 430px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.formulario input{
+    display: block;
+
+}
+.formulario input[type="text"],
+.formulario input[type="tel"]{
+    width: 100%;
+    padding: 15px;
+    border-radius: 22px;
+    border: 1px solid #25d366;
+    font-family: Poppins-Light;
+    font-size: 16px;
+}
+
+.formulario input[type="text"]{
+    margin-bottom: 20px;
+
+}
+
+.formulario input[type="tel"]{
+    margin-bottom: 1px;
+    }
+    
+.formulario input[type="text"]:focus,
+.formulario input[type="tel"]:focus{
+    border: 2px solid;
+    border-color: #075e54;
+}
+.formulario input[type="submit"]{
+    width: 100%;
+    padding: 16px;
+    background: #00C063;
+    border: none;
+    border-radius: 100px;
+    margin: auto;
+    font-family: Poppins-SemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+
+}
+.formulario input[type="submit"]:hover{
+    background-color: #25d366;
+    color: #fff;
+}
+small{
+    font-size:12px;
+    text-align: center;
+    font-family: Poppins-Regular;
+
+}
+.ayudainput a{
+    color:#075e54;
+    font-family: Poppins-Medium;
+}
+
+.container h1{
+    position: relative;
+    left: 125px;
+    top: 50px;
+}
